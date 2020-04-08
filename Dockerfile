@@ -1,6 +1,6 @@
 FROM golang:latest
 
-RUN mkdir app
+RUN mkdir /app
 ADD . /app/
 
 # Move to working directory
